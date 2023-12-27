@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.nav-bar-container {
+    min-height: 100vh;
+    width: 20%;
+    background-color: #131313;
+    color: wheat;
+}
+
+.body-container {
+    background: #282727;
+    width: 80%;
+}

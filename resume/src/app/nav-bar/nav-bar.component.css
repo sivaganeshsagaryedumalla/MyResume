@@ -1,0 +1,46 @@
+.nav-items ul {
+    list-style: none;
+    padding: 0px;
+
+}
+
+.nav-header-name {
+    height: 34vh;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.nav-items ul li {
+    padding: 20px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.about-me-img {
+    height: 80px;
+    position: absolute;
+    opacity: 0.3;
+    cursor: pointer;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 50%;
+}
+
+.skills {
+    height: 70px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.3;
+    padding: 5px;
+    cursor: pointer;
+}
