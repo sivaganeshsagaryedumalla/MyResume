@@ -1,14 +1,16 @@
 <div class="nav-container">
-    <div class="nav-header-name">
-        <div class="name">My Name</div>
-        <div class="Designation">Software Engineer</div>
+    <div class="nav-header-name" (mouseover)="changeRoute('intro')">
     </div>
-    <div class="nav-items">
+    <span class="nav-items">
         <ul>
-            <li> <img class="about-me-img" src="../../assets/user-circle.svg" alt=""> About</li>
-            <li><img class="skills" src="../../assets/skills.svg" alt="">Skills</li>
-            <li>Education</li>
-            <li>Contact</li>
+            <li class="about" (mouseover)="changeRoute('about')"><img class="about-me-img"
+                    src="../../assets/user-circle.svg" alt="">
+
+            </li>
+            <li class="skill" (mouseover)="changeRoute('skill')"><img class="skills" src="../../assets/skills.svg"
+                    alt=""></li>
+            <li class="education" (mouseover)="changeRoute('education')"><img class="education" alt=""></li>
+            <li class="contact" (mouseover)="changeRoute('contact')"><img class="contact" src="" alt=""></li>
         </ul>
-    </div>
+    </span>
 </div>

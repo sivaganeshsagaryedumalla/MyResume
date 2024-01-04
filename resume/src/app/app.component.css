@@ -3,13 +3,22 @@
 }
 
 .nav-bar-container {
-    min-height: 100vh;
-    width: 20%;
-    background-color: #131313;
-    color: wheat;
+    background-color: #0B0c10;
+    color: #66FCF1;
 }
 
 .body-container {
     background: #282727;
     width: 80%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+::ng-deep .nav-container {
+    display: flex;
+    justify-content: space-between;
 }

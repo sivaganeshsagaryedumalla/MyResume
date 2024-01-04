@@ -1,0 +1,127 @@
+.intro-img {
+    width: 50%;
+}
+
+.intro-container {
+    width: 100%;
+    display: flex;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-img img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    max-width: 100%;
+
+}
+
+.intro-intro {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.clouds {
+    position: absolute !important;
+    top: -280px;
+    opacity: 0.5;
+    animation-name: clouds;
+    animation-duration: 10s;
+    overflow: hidden;
+    background-size: cover;
+
+}
+
+.profile {
+    animation-name: imageTransition;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    position: relative;
+    bottom: 75px;
+    opacity: 0.4;
+}
+
+.static {
+    font-size: 50px;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.dynamic {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+
+.intro-intro {
+    max-width: 400px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.dynamic {
+    position: relative;
+    width: max-content;
+
+}
+
+.dynamic::after,
+.dynamic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.dynamic::before {
+    animation: typewriter 4s steps(15) forwards;
+    background-color: #1f2833;
+}
+
+.dynamic::after {
+    background-color: white;
+    width: 2px;
+    animation: typewriter 4s steps(15) forwards;
+
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%
+    }
+}
+
+
+
+@keyframes imageTransition {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes clouds {
+    to {
+        left: 200px;
+
+    }
+
+}

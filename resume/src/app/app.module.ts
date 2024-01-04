@@ -7,6 +7,9 @@ import { IntroComponent } from './intro/intro.component';
 import { SkillsAndExperienceComponent } from './skills-and-experience/skills-and-experience.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import { EducationComponent } from './education/education.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ContactComponent } from './contact/contact.component';
     IntroComponent,
     SkillsAndExperienceComponent,
     NavBarComponent,
-    ContactComponent
+    ContactComponent,
+    AboutComponent,
+    EducationComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
